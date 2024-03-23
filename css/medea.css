@@ -1,0 +1,397 @@
+/* @Table */
+@media screen and (max-width: 992px) {
+  /* Header @Table*/
+  .header-container,
+  .footer-container {
+    max-width: 700px !important;
+  }
+  header .nft-logo img {
+    width: 75% !important;
+  }
+  .header-container > nav {
+    display: none !important;
+    width: 80%;
+  }
+  .header-container > button {
+    display: block !important;
+  }
+  .header-container:hover nav {
+    display: block !important;
+  }
+  header nav {
+    animation: animate 8s alternate infinite;
+  }
+  @keyframes animate {
+    0% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+  header .nft-logo img {
+    width: 75% !important;
+  }
+  header ul {
+    gap: 10px !important;
+  }
+  header li {
+    max-width: 100px !important;
+    font-size: 85% !important;
+  }
+  header li:last-of-type {
+    margin-right: 20px !important;
+    margin-left: -20px !important;
+  }
+  header nav button {
+    width: 20% !important;
+    height: 30px !important;
+    font-size: 75% !important;
+  }
+  header nav button > img {
+    width: 15% !important;
+  }
+  header a {
+    font-size: 85% !important;
+  }
+  /* Main @Table*/
+  section {
+    max-width: 690px !important;
+    margin-bottom: 100px !important;
+    gap: 40px !important;
+  }
+  h1 {
+    font-size: 38px !important;
+  }
+  h2 {
+    font-size: 38px !important;
+  }
+  h3 {
+    font-size: 28px !important;
+  }
+  h4 {
+    font-size: 22px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  /* Section_hero @Table*/
+  .section_hero {
+    gap: 20px !important;
+  }
+  .section_hero .title {
+    max-width: 315px !important;
+    gap: 20px !important;
+  }
+  .section_hero .title a {
+    font-size: 16px !important;
+  }
+  .section_hero .card {
+    max-width: 315px !important;
+    height: 315px !important;
+    gap: 5px !important;
+  }
+  .section_hero .card-footer {
+    gap: 5px !important;
+  }
+  .section_hero .card-poster img {
+    max-width: 315px !important;
+  }
+  .section_hero .card-footer > button {
+    font-size: 16px !important;
+  }
+  .section_hero .navigation {
+    max-width: 315px !important;
+    margin-top: -100px !important;
+    gap: 20px;
+  }
+  /* Section_Trending-Collection @Table*/
+  .section_trending-collection .card:nth-of-type(3) {
+    display: none !important;
+  }
+  /* Section_Top-Creators @Table */
+  .section_top-creators .card {
+    width: 330px !important;
+    height: 100px !important;
+    flex-direction: row !important;
+  }
+  .section_top-creators .card:nth-of-type(7),
+  .card:nth-of-type(8),
+  .card:nth-of-type(9),
+  .card:nth-of-type(10),
+  .card:nth-of-type(11),
+  .card:nth-of-type(12) {
+    display: none !important;
+  }
+  .section_top-creators .card img {
+    width: 60px !important;
+    margin-left: -30px;
+  }
+  .section_top-creators .text-row {
+    max-width: 315px;
+  }
+  .section_top-creators .card-footer {
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+  .section_top-creators .card-number {
+    top: 10% !important;
+  }
+  /* Section_Browse-Categories @Table*/
+  .section_browse-categories .card {
+    display: block !important;
+    width: 150px !important;
+    height: 230px !important;
+  }
+  .section_browse-categories .card-poster > img {
+    width: 150px !important;
+    height: 140px !important;
+  }
+  .section_browse-categories .card-icon img {
+    width: 80px !important;
+  }
+  .section_browse-categories .card-footer {
+    padding: 20px 20px 0px 20px !important;
+  }
+  /* Section_Discover @Table*/
+  .section_discover .card:nth-child(3) {
+    display: none !important;
+  }
+  /* Section_Highlight @Table*/
+  .container_highlight {
+    height: 630px !important;
+  }
+  .section_highlight {
+    gap: 30px !important;
+  }
+  /* Section_Works @Table*/
+  .section_works .card {
+    width: 210px !important;
+    height: 320px !important;
+  }
+  .section_works .card img {
+    width: 160px !important;
+  }
+  .section_works .card-footer p {
+    font-size: 12px !important;
+  }
+  /* Section_Subscribe @Table*/
+  .section_subscribe {
+    height: 360px !important;
+  }
+  .section_subscribe > a > img {
+    width: 300px !important;
+    height: 280px !important;
+  }
+  .section_subscribe .title {
+    width: 300px !important;
+  }
+  .section_subscribe form {
+    background: none !important;
+    border-radius: none !important;
+    flex-direction: column !important;
+    gap: 20px;
+  }
+  .section_subscribe .form-line > img {
+    top: 43% !important;
+    left: 33% !important;
+    transform: translate(-43%, -33%) !important;
+  }
+  .section_subscribe .form-line,
+  input {
+    width: 315px !important;
+  }
+  /* Footer @Table */
+  footer nav {
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+  }
+  footer ul,
+  li {
+    width: 100% !important;
+  }
+}
+
+/* @Mobile */
+@media screen and (max-width: 768px) {
+  /* Header @Mobile*/
+  .header-container,
+  .footer-container {
+    max-width: 315px !important;
+  }
+  .header-container > nav {
+    width: 100%;
+  }
+  .header-container > button {
+    display: block !important;
+    margin-right: -20px;
+  }
+  .header-container:hover nav {
+    display: block !important;
+  }
+  header nav {
+    animation: none !important;
+  }
+  .header-container:hover .nft-logo {
+    display: none;
+  }
+  header ul {
+    gap: 0px !important;
+  }
+  header li {
+    max-width: 80px !important;
+    font-size: 65% !important;
+  }
+  header li:last-of-type {
+    margin-right: 10px !important;
+    margin-left: -20px !important;
+  }
+  header nav button > img {
+    display: none !important;
+  }
+  /* Main @Mobile*/
+  main {
+    padding-top: 0px !important;
+  }
+  section {
+    max-width: 315px !important;
+    margin-bottom: 80px;
+  }
+  h1 {
+    font-size: 28px !important;
+  }
+  /* Section_hero @Mobile*/
+  .section_hero {
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+
+  .section_hero .navigation a {
+    font-size: 16px !important;
+  }
+
+  .section_hero .navigation button {
+    width: 315px !important;
+    margin-top: 100px !important;
+  }
+  .section_hero ul {
+    width: 340px !important;
+  }
+  .section_hero li {
+    width: 80px !important;
+  }
+  /* Section_Trending-Collection @Mobile*/
+  .section_trending-collection .card:nth-of-type(2),
+  .card:nth-of-type(3) {
+    display: none !important;
+  }
+  /* Section_Top-Creators @Mobile*/
+  .section_top-creators > title {
+    order: 1 !important;
+  }
+  .section_top-creators > .cards {
+    order: 2 !important;
+  }
+  .section_top-creators > button {
+    width: 100% !important;
+    order: 3 !important;
+    margin-top: 10px !important;
+  }
+  .section_top-creators .card:nth-of-type(6) {
+    display: none !important;
+  }
+  /* Section_Browse-Categories @Mobile*/
+  .section_browse-categories {
+    gap: 10px !important;
+  }
+  .section_browse-categories .card {
+    display: block !important;
+  }
+  .section_browse-categories .cards {
+    gap: 10px !important;
+  }
+  /* Section_Discover @Mobile */
+  .section_discover .card:nth-child(3) {
+    display: flex !important;
+  }
+  .section_discover > title {
+    order: 1 !important;
+  }
+  .section_discover > .cards {
+    order: 2 !important;
+  }
+  .section_discover > button {
+    width: 100% !important;
+    order: 3 !important;
+    margin-top: 10px !important;
+  }
+  /* Section_Highlight @Mobile*/
+  .container_highlight {
+    height: 590px !important;
+    padding-top: 100px !important;
+  }
+  .section_highlight > button {
+    width: 100% !important;
+  }
+  /* Section_Works @Mobile*/
+  .section_works .cards {
+    gap: 30px !important;
+  }
+  .section_works .card {
+    display: flex !important;
+    width: 315px !important;
+    height: 160px !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    text-align: left !important;
+  }
+  .section_works .card img {
+    width: 85px !important;
+  }
+  .section_works .card > .card-footer {
+    width: 155px !important;
+    align-items: flex-start !important;
+  }
+  /* Section_Subscribe @Mobile*/
+  .section_subscribe {
+    height: 580px !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    background: none !important;
+    border-radius: none !important;
+  }
+  .section_subscribe > a > img {
+    width: 315px !important;
+    height: 255px !important;
+  }
+  .section_subscribe .title {
+    width: 315px !important;
+  }
+  /* Footer @Mobile */
+  .footer-container {
+    align-items: flex-start !important
+    ;
+  }
+  footer form {
+    background: none !important;
+    border-radius: none !important;
+    flex-direction: column !important;
+    gap: 20px;
+  }
+  footer form,
+  input,
+  nav {
+    width: 315px !important;
+  }
+  footer input {
+    width: 315px !important;
+    height: 45px;
+  }
+  footer h5 {
+    font-size: 22px !important;
+  }
+}
